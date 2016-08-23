@@ -1,0 +1,14 @@
+server CHINTAN
+sa sa
+dsn name gpa
+create database gpa
+use gpa
+create table user_db
+(
+uname varchar(30) primary key,
+pass varchar(16) not null,
+filepath varchar(200) not null,
+timesinvalid int not null
+
+
+)
